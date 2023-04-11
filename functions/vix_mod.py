@@ -10,6 +10,11 @@ import yfinance as yfin
 yfin.pdr_override()
 import requests
 
+# Packages related to machine learning
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from dateutil.relativedelta import relativedelta
+
 #turn off warning signs for cleaner code
 from warnings import filterwarnings
 filterwarnings("ignore")
